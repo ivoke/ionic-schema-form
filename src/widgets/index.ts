@@ -1,0 +1,10 @@
+export { IonArrayWidget } from './ion-array.widget';
+export { IonButtonWidget } from './ion-button.widget';
+export { IonCheckboxWidget } from './ion-checkbox.widget';
+export { IonIntegerWidget } from './ion-integer.widget';
+export { IonObjectWidget } from './ion-object.widget';
+export { IonRadioWidget } from './ion-radio.widget';
+export { IonRangeWidget } from './ion-range.widget';
+export { IonSelectWidget } from './ion-select.widget';
+export { IonStringWidget } from './ion-string.widget';
+export { IonTextAreaWidget } from './ion-textarea.widget';

@@ -1,0 +1,38 @@
+{
+  "name": "ionic-schema-form",
+  "version": "0.1.0",
+  "description": "Angular schema form custom widgets for ionic.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build:aot": "ngc -p tsconfig.json",
+    "build": "npm run clean && npm run build:aot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Bastian Hofmann",
+    "email": "bastianhofmann@me.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^4.2.5",
+    "@angular/common": "^4.2.5",
+    "@angular/compiler": "^4.2.5",
+    "@angular/core": "^4.2.5",
+    "@angular/forms": "^4.2.5",
+    "@angular/http": "^4.2.5",
+    "@angular/platform-browser": "^4.2.5",
+    "angular2-schema-form": "^1.1.0",
+    "core-js": "2.4.1",
+    "ionic-angular": "^3.9.2",
+    "rxjs": "^5.1.0",
+    "typescript": "2.2.2",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.53"
+  }
+}
