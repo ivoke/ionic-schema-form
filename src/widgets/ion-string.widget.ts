@@ -6,8 +6,8 @@ import { StringWidget } from 'angular2-schema-form';
   template: `<input *ngIf="this.getInputType()==='hidden'; else notHiddenFieldBlock" [attr.name]="name" type="hidden" [formControl]="control">
 <ng-template #notHiddenFieldBlock>
   <ion-item>
-    <ion-label [attr.for]="id" fixed>{{ schema.title }}</ion-label>
     <ion-input [attr.type]="this.getInputType()"
+      placeholder="{{ schema.title }}"
       [attr.readonly]="(schema.widget.id!=='color') && schema.readOnly?true:null"
       [attr.id]="id"
       [formControl]="control" [attr.placeholder]="schema.placeholder"
