@@ -3,7 +3,7 @@ Schema forms for Ionic v2 and up using the [angular2-schema-form](https://github
 
 ## Installation
 
-`npm install ionic-schema-form`
+`npm install ionic-schema-form --save`
 
 Import the ionic-schema-form module:
 
